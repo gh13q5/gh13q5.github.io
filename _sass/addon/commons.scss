@@ -689,7 +689,9 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
+  
   /* background: var(--sidebar-bg); */
+  
   border-right: 1px solid var(--sidebar-border-color);
 
   background: url('/assets/side_bg.png');
