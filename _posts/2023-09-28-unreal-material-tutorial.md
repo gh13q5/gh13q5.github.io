@@ -1,7 +1,7 @@
 ---
 title: 작성 중-언리얼 머티리얼 기초
 author: gh13
-date: 2023-09-28 19:32:00 +0800
+date: 2023-09-28 16:32:00 +0800
 categories: [Unreal Engine 5]
 tags: [ue5, material]
 render_with_liquid: false
