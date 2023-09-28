@@ -23,13 +23,13 @@ title: Chirpy # the main title
 tagline: A text-focused Jekyll theme # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  무엇이든 좋아하는 사람!
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://gh13q5.github.io"
 
 github:
-  username: github_username # change to your github username
+  username: gh13
 
 twitter:
   username: twitter_username # change to your twitter username
