@@ -55,6 +55,13 @@ google_site_verification: Zekv_VTARJhj2YYXtdIkipJbw1595AZnFbyncc745dA # fill in 
 google_analytics:
   id: # fill in your Google Analytics ID
 
+# Analytics
+analytics:
+  provider: "google-gtag" 
+  google:
+    tracking_id: "G-9QKRHV4NPJ"
+    anonymize_ip: # true, false (default)
+
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
