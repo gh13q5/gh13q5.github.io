@@ -10,8 +10,6 @@ render_with_liquid: false
 > <https://school.programmers.co.kr/learn/courses/30/lessons/77486>
 {: .prompt-info }
 
-<br/>
-
 ## 풀이
 
 각 판매자의 수익과 추천인을 담은 2가지의 `unordered_map`을 만들어 key값(직원 이름)으로 쉽게 접근할 수 있게 하고, 판매원의 이익을 분배하는 반복문을 돌려주었다. 반복문에서는 현재 직원의 수익을 더해주고 추천인을 다음 반복문의 대상으로 설정했다. 더이상 위로 분배할 수 있는 돈이 없을 때 반복을 끝낼 수 있도록 (money > 0) 조건도 추가했다!
