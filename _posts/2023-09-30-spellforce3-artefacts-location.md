@@ -3,7 +3,7 @@ title: "Spellforce 3 Reforced 유물 공략"
 author: gh13
 date: 2023-09-30 18:01:00 +0800
 categories: [일상, 게임]
-tags: [C++, 프로그래머스]
+tags: [Spellforce 3]
 render_with_liquid: false
 image:
   path: /assets/img/post_img/2023-09-30-01.jpg
@@ -15,11 +15,11 @@ image:
 ## 생사의 주관자 (Master of Life and Death)
 
 손잡이
-: 물란디르 중앙을 기준으로 북서쪽에 위치한 신돌의 왼편
+: 물란디르 중앙을 기준으로 북서쪽에 위치한 신돌의 왼편  
 검날
-: 미지의 섬의 하이버니아 사원 북서쪽 책장 앞
+: 미지의 섬의 하이버니아 사원 북서쪽 책장 앞  
 자루
-: 리아논 북쪽 기둥
+: 리아논 북쪽 기둥  
 
 ## 변절자의 검 (Sword of Benediction)
 
