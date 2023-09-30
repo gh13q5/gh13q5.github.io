@@ -7,9 +7,8 @@ tags: [C++, 프로그래머스]
 render_with_liquid: false
 ---
 
-## 문제
-
-<https://school.programmers.co.kr/learn/courses/30/lessons/77486>
+> <https://school.programmers.co.kr/learn/courses/30/lessons/77486>
+{: .prompt-info }
 
 <br/>
 
