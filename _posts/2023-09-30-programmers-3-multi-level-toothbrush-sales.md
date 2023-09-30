@@ -1,7 +1,7 @@
 ---
 title: "[2021 Dev-Matching] 다단계 칫솔 판매 (C++)"
 author: gh13
-date: 2023-09-30 11:32:00 +0800
+date: 2023-09-30 11:28:00 +0800
 categories: [프로그래머스, Lv.3]
 tags: [C++, 프로그래머스]
 render_with_liquid: false
