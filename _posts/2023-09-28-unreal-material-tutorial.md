@@ -1,5 +1,5 @@
 ---
-title: (작성 중) 언리얼 머티리얼 기초
+title: 메인 머티리얼 노드에 입력 가능한 속성들
 author: gh13
 date: 2023-09-28 16:32:00 +0800
 categories: [Unreal Engine 5, Material]
@@ -41,7 +41,7 @@ image:
 
 ![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-05.png){: width="972" height="486" }
 
-> 새로 머티리얼을 생성했을 때 보이지 않는다면 좌측 디테일 패널의 [머티리얼]-[셰이딩 모델]을 `Unlit`에서 `Default Lit`으로 바꿔주면 보인다! `Unlit`은 UnLight, 즉 빛이 없는 상태이다.
+> 새로 머티리얼을 생성했을 때 보이지 않는다면 좌측 디테일 패널의 `머티리얼`-`셰이딩 모델`을 `Unlit`에서 `Default Lit`으로 바꿔주면 보인다! `Unlit`은 UnLight, 즉 빛이 없는 상태이다.
 {: .prompt-tip }
 
 ### 베이스 컬러(Base Color)
