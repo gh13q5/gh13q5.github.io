@@ -36,7 +36,7 @@ image:
 
 ## 메인 머티리얼 노드
 
-![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-06.png){: width="550" height="550" .w-30 .left}
+![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-06.png){: width="300" height="300" .w-30 .left}
 메인 머티리얼 노드(Main Material Node)는 여러 머티리얼 노드들의 입력을 받고 모아서, 최종적인 결과를 보여주는 노드이다. 가장 오른쪽에 위치하는 세로로 긴 노드로 다양한 입력값을 받을 수 있다. 메인 머티리얼 노드에 입력 가능한 대표적인 속성들은 아래와 같다.  
 
 ![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-05.png){: width="972" height="486" }
