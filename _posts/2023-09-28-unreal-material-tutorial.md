@@ -36,8 +36,13 @@ image:
 
 ## 메인 머티리얼 노드
 
-(메인 머티리얼 노드 + 썸넬로 썻던 이미지 추가하기)  
-메인 머티리얼 노드에 입력 가능한 대표적인 속성들은 아래와 같다.  
+![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-06.png){: width="677" height="609" .w-50 .left}
+메인 머티리얼 노드(Main Material Node)는 여러 머티리얼 노드들의 입력을 받고 모아서, 최종적인 결과를 보여주는 노드이다. 가장 오른쪽에 위치하는 세로로 긴 노드로 다양한 입력값을 받을 수 있다. 메인 머티리얼 노드에 입력 가능한 대표적인 속성들은 아래와 같다.  
+
+![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-05.png){: width="680" height="340" }
+
+> 새로 머티리얼을 생성했을 때 보이지 않는다면 좌측 디테일 패널의 [머티리얼]-[셰이딩 모델]을 `Unlit`에서 `Default Lit`으로 바꿔주면 보인다! `Unlit`은 UnLight, 즉 빛이 없는 상태이다.
+{: .prompt-tip }
 
 ### 베이스 컬러(Base Color)
 
@@ -57,6 +62,9 @@ image:
 
 표면의 거칠기나 부드러운 정도를 제어한다. (부드러움 0 ~ 거침 1)  
 거친 재질에 반사된 빛은 여러 방향으로 퍼져 분산 또는 무광 표면이 된다.
+
+![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-04.png){: width="680" height="340" }
+_Specular와 Roughness는 비슷한 것같지만 머티리얼에 반사된 이미지가 다르다._
 
 ### 애니소트로피(Anisotropy)
 
@@ -98,6 +106,8 @@ image:
 
 ### 서브서피스 컬러(Subsurface Color)
 
+![Apply Subsurface Color](/assets/img/post_img/2023-09-28-03.png){: width="680" height="340" }
+
 머티리얼의 안쪽에 색을 추가해, 빛이 표면을 투과할 때의 색 변화를 표현할 수 있다. 손가락 끝이나 귓볼이 빛을 받으면 붉게 빛나는 효과를 표현할 수 있으며, 주로 역광을 받는 환경에서 두드러진다. 셰이딩 모델이 `Subsurface`로 설정되어 있어야 활성화되는 입력이다.
 
 > 셰이딩 모델(Shaing Model)은 언리얼에서 특정 유형의 머티리얼을 미리 제공해주는 것으로, 헤어/눈/옷/클리어 코트/서브서피스 등이 있다. 각 셰이딩 모델이 추가적으로 제공하는 커스텀 데이터를 이용해 제어할 수 있다.
@@ -110,6 +120,9 @@ image:
 ### 리프렉션(Refraction)
 
 투과되는 빛을 굴절시키는 유리나 물 등을 구현할 때 사용하는 굴절값이다. 보통 공기가 1.0, 물이 1.3, 유리가 1.5 정도의 값을 가진다.
+
+> 공식 문서의 리프렉션 예제에서는 [Frensel](https://docs.unrealengine.com/4.27/ko/RenderingAndGraphics/Materials/HowTo/Fresnel/) 노드를 사용해 투명한 유리의 외곽선을 만들어주었다.
+{: .prompt-info }
 
 ### 픽셀 뎁스 오프셋(Pixel Depth Offset)
 
