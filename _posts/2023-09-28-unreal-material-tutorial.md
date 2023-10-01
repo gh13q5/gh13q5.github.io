@@ -36,10 +36,10 @@ image:
 
 ## 메인 머티리얼 노드
 
-![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-06.png){: width="677" height="609" .w-50 .left}
+![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-06.png){: width="550" height="550" .w-30 .left}
 메인 머티리얼 노드(Main Material Node)는 여러 머티리얼 노드들의 입력을 받고 모아서, 최종적인 결과를 보여주는 노드이다. 가장 오른쪽에 위치하는 세로로 긴 노드로 다양한 입력값을 받을 수 있다. 메인 머티리얼 노드에 입력 가능한 대표적인 속성들은 아래와 같다.  
 
-![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-05.png){: width="680" height="340" }
+![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-05.png){: width="972" height="486" }
 
 > 새로 머티리얼을 생성했을 때 보이지 않는다면 좌측 디테일 패널의 [머티리얼]-[셰이딩 모델]을 `Unlit`에서 `Default Lit`으로 바꿔주면 보인다! `Unlit`은 UnLight, 즉 빛이 없는 상태이다.
 {: .prompt-tip }
@@ -63,7 +63,7 @@ image:
 표면의 거칠기나 부드러운 정도를 제어한다. (부드러움 0 ~ 거침 1)  
 거친 재질에 반사된 빛은 여러 방향으로 퍼져 분산 또는 무광 표면이 된다.
 
-![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-04.png){: width="680" height="340" }
+![Difference about Specular and Roughness](/assets/img/post_img/2023-09-28-04.png){: width="972" height="486" }
 _Specular와 Roughness는 비슷한 것같지만 머티리얼에 반사된 이미지가 다르다._
 
 ### 애니소트로피(Anisotropy)
@@ -106,7 +106,7 @@ _Specular와 Roughness는 비슷한 것같지만 머티리얼에 반사된 이�
 
 ### 서브서피스 컬러(Subsurface Color)
 
-![Apply Subsurface Color](/assets/img/post_img/2023-09-28-03.png){: width="680" height="340" }
+![Apply Subsurface Color](/assets/img/post_img/2023-09-28-03.png){: width="972" height="486" }
 
 머티리얼의 안쪽에 색을 추가해, 빛이 표면을 투과할 때의 색 변화를 표현할 수 있다. 손가락 끝이나 귓볼이 빛을 받으면 붉게 빛나는 효과를 표현할 수 있으며, 주로 역광을 받는 환경에서 두드러진다. 셰이딩 모델이 `Subsurface`로 설정되어 있어야 활성화되는 입력이다.
 
