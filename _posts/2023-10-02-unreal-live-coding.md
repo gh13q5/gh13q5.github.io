@@ -7,9 +7,6 @@ tags: [UE5, Tech]
 render_with_liquid: false
 ---
 
-> <https://school.programmers.co.kr/learn/courses/15009/lessons/121690#>
-{: .prompt-info }
-
 ## 핫 리로딩 (Hot Reloading)
 
 프로그램이 실행된 상태를 유지하며, 런타임 동안 변경된 파일들만 리로드하는 방식.  
