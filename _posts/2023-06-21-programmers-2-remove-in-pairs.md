@@ -1,7 +1,7 @@
 ---
 title: "[2017 팁스타운] 짝지어 제거하기 (C++)"
 author: gh13
-date: 2023-09-30 16:15:00 +0800
+date: 2023-06-21 16:23:00 +0800
 categories: [프로그래머스, Lv.2]
 tags: [C++, 프로그래머스]
 render_with_liquid: false
