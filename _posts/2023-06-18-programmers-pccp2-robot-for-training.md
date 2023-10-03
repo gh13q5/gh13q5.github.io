@@ -1,7 +1,7 @@
 ---
 title: "[PCCP 모의고사 2회] 실습용 로봇 (C++)"
 author: gh13
-date: 2023-10-02 14:30:00 +0800
+date: 2023-06-18 16:05:00 +0800
 categories: [프로그래머스, PCCP 모의고사]
 tags: [C++, 프로그래머스]
 render_with_liquid: false
