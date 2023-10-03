@@ -7,7 +7,7 @@ tags: [three.js, javascript 5]
 render_with_liquid: false
 ---
 
-> <`three.js로 3D 그래픽 만들기 2/e`를 공부하며 작성했습니다.>
+> 해당 게시글은 `three.js로 3D 그래픽 만들기 2/e`를 공부하며 작성했습니다.
 {: .prompt-info }
 
 ## 오늘의 공부
