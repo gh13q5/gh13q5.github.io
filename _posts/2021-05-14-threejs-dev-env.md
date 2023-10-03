@@ -6,7 +6,7 @@ categories: [Web, three.js]
 tags: [three.js, javascript 5]
 render_with_liquid: false
 image:
-  path: /assets/img/post_img/2021-05-14-04.png
+  path: /assets/img/post_img/2021-05-14-04.PNG
 ---
 
 > 해당 게시글은 `three.js로 3D 그래픽 만들기 2/e`를 공부하며 작성했습니다.
@@ -31,7 +31,7 @@ html 파일을 넣을 폴더와 [three.js 공식 홈페이지](https://threejs.o
 
 ### 크롬 보안 설정 비활성화
 
-![Create Folder](/assets/img/post_img/2021-05-14-02.png){: width="972" }
+![Chrome Config](/assets/img/post_img/2021-05-14-02.png){: width="972" }
 
 로컬 파일에 직접 접근이 가능하도록 따로 크롬 바로가기를 하나 더 만들어서 --disable-web-security를 추가해줬다. 하도 안 됐어서 해본 거긴 한데... 그냥 크롬 브라우저로도 잘 열리는 것같고? 잘은 모르겠다.  
 
@@ -50,7 +50,7 @@ html이라 이클립스를 사용할까 했지만 오늘 많은 우여곡절이 
 - dat.GUI 라이브러리로 애니메이션 실시간 조절
 - 브라우저 크기에 따른 결과물 크기 조정  
 
-![Create Folder](/assets/img/post_img/2021-05-14-03.gif){: width="972" }
+![Example Gif](/assets/img/post_img/2021-05-14-03.gif){: width="972" }
 
 객체 생성 때 new function(){ ... }을 사용했다가 중괄호 뒤에 ;를 안 붙여서 골치 아파 죽는줄 알았다. 객체를 생성할 때 사용했음에도 function이라서 자연스레 잊었나 보다.  
 
