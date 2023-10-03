@@ -1,7 +1,7 @@
 ---
 title: "[PCCP 모의고사 1회] 체육대회 (C++)"
 author: gh13
-date: 2023-10-02 15:25:00 +0800
+date: 2023-06-05 18:40:00 +0800
 categories: [프로그래머스, PCCP 모의고사]
 tags: [C++, 프로그래머스]
 render_with_liquid: false
