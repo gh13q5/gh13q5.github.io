@@ -1,7 +1,7 @@
 ---
 title: "[2021 Dev-Matching] 로또의 최고 순위와 최저 순위 (C++)"
 author: gh13
-date: 2023-09-30 11:32:00 +0800
+date: 2023-07-10 19:27:00 +0800
 categories: [프로그래머스, Lv.1]
 tags: [C++, 프로그래머스]
 render_with_liquid: false
