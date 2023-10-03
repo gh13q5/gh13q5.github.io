@@ -1,7 +1,7 @@
 ---
 title: "[2021 Dev-Matching] 행렬 테두리 회전하기 (C++)"
 author: gh13
-date: 2023-09-30 11:35:00 +0800
+date: 2023-07-10 19:37:00 +0800
 categories: [프로그래머스, Lv.2]
 tags: [C++, 프로그래머스]
 render_with_liquid: false
