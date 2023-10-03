@@ -5,6 +5,8 @@ date: 2021-05-14 12:13:00 +0800
 categories: [Web, three.js]
 tags: [three.js, javascript 5]
 render_with_liquid: false
+image:
+  path: /assets/img/post_img/2021-05-14-04.png
 ---
 
 > 해당 게시글은 `three.js로 3D 그래픽 만들기 2/e`를 공부하며 작성했습니다.
@@ -23,15 +25,19 @@ render_with_liquid: false
 
 ### 폴더 생성
 
-html 파일을 넣을 폴더와 [three.js 공식 홈페이지](https://threejs.org/)에서 다운받은 Three.js 파일을 넣어줄 libs 폴더를 생성했다. 이클립스의 설정을 따라 html 대신 WebContent로 폴더 이름을 짓기도 하더라. 나도 다음에는 바꿔서 생성해봐야겠다. Three.min.js를 많이 쓴다곤 하지만 책에서는 디버깅 때문에 Three.js를 사용한다고 한다. 이후 프로젝트에서는 Three.min.js로 다운받아 해야할라나.
+![Create Folder](/assets/img/post_img/2021-05-14-01.png){: width="972" }
+
+html 파일을 넣을 폴더와 [three.js 공식 홈페이지](https://threejs.org/)에서 다운받은 Three.js 파일을 넣어줄 libs 폴더를 생성했다. 이클립스의 설정을 따라 html 대신 WebContent로 폴더 이름을 짓기도 하더라. 나도 다음에는 바꿔서 생성해봐야겠다. Three.min.js를 많이 쓴다곤 하지만 책에서는 디버깅 때문에 Three.js를 사용한다고 한다. 이후 프로젝트에서는 Three.min.js로 다운받아 해야할라나.  
 
 ### 크롬 보안 설정 비활성화
 
-로컬 파일에 직접 접근이 가능하도록 따로 크롬 바로가기를 하나 더 만들어서 --disable-web-security를 추가해줬다. 하도 안 됐어서 해본 거긴 한데... 그냥 크롬 브라우저로도 잘 열리는 것같고? 잘은 모르겠다.
+![Create Folder](/assets/img/post_img/2021-05-14-02.png){: width="972" }
+
+로컬 파일에 직접 접근이 가능하도록 따로 크롬 바로가기를 하나 더 만들어서 --disable-web-security를 추가해줬다. 하도 안 됐어서 해본 거긴 한데... 그냥 크롬 브라우저로도 잘 열리는 것같고? 잘은 모르겠다.  
 
 ### 텍스트 에디터로 html 코드 작성
 
-html이라 이클립스를 사용할까 했지만 오늘 많은 우여곡절이 있었기에, Sublime Text Editor를 사용했다. 기존에 unity 코드나 lua 스크립트 편집 때 잘 쓰긴 했던 프로그램이라 역시 무난하고 좋다. 일단 어두운 배경에 UI가 깔끔해서 만족스럽다.
+html이라 이클립스를 사용할까 했지만 오늘 많은 우여곡절이 있었기에, Sublime Text Editor를 사용했다. 기존에 unity 코드나 lua 스크립트 편집 때 잘 쓰긴 했던 프로그램이라 역시 무난하고 좋다. 일단 어두운 배경에 UI가 깔끔해서 만족스럽다.  
 
 <br/>
 
@@ -44,7 +50,9 @@ html이라 이클립스를 사용할까 했지만 오늘 많은 우여곡절이 
 - dat.GUI 라이브러리로 애니메이션 실시간 조절
 - 브라우저 크기에 따른 결과물 크기 조정  
 
-객체 생성 때 new function(){ ... }을 사용했다가 중괄호 뒤에 ;를 안 붙여서 골치 아파 죽는줄 알았다. 객체를 생성할 때 사용했음에도 function이라서 자연스레 잊었나 보다. 
+![Create Folder](/assets/img/post_img/2021-05-14-03.gif){: width="972" }
+
+객체 생성 때 new function(){ ... }을 사용했다가 중괄호 뒤에 ;를 안 붙여서 골치 아파 죽는줄 알았다. 객체를 생성할 때 사용했음에도 function이라서 자연스레 잊었나 보다.  
 
 <br/>
 
