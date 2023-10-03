@@ -1,7 +1,7 @@
 ---
 title: "[2017 팁스타운] 예상 대진표 (C++)"
 author: gh13
-date: 2023-09-30 11:40:00 +0800
+date: 2023-06-21 16:52:00 +0800
 categories: [프로그래머스, Lv.2]
 tags: [C++, 프로그래머스]
 render_with_liquid: false
