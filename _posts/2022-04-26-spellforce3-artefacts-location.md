@@ -1,7 +1,7 @@
 ---
 title: "Spellforce 3 Reforced 유물 공략"
 author: gh13
-date: 2023-09-30 18:01:00 +0800
+date: 2022-04-26 12:53:00 +0800
 categories: [일상, 게임]
 tags: [Spellforce, Spellforce 3]
 render_with_liquid: false
