@@ -2,7 +2,7 @@
 title: 메인 머티리얼 노드에 입력 가능한 속성들
 author: gh13
 date: 2023-09-28 16:32:00 +0800
-categories: [Unreal Engine 5, Material]
+categories: [C++, Unreal Engine 5]
 tags: [UE5, material]
 render_with_liquid: false
 image:
