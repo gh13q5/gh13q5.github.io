@@ -11,7 +11,7 @@ render_with_liquid: false
 
 `pom.xml`에 다음과 같은 에러가 발생했다.
 
-> Could not calculate build plan: Plugin org.apache.maven.plugins:`maven-war-plugin:3.2.2` or one of its dependencies could not be resolved: org.apache.maven.plugins:maven-war-plugin:jar:3.2.2 failed to transfer from <https://repo.maven.apache.org/maven2> during a previous attempt.
+> Could not calculate build plan: Plugin org.apache.maven.plugins:`maven-war-plugin:3.2.2` or one of its dependencies could not be resolved: org.apache.maven.plugins:maven-war-plugin:jar:3.2.2 failed to transfer from <https://repo.maven.apache.org/maven2> during a previous attempt.
 {: .prompt-warning }
 
 pom.xml에서부터 이런 에러가 발생하니 다른 bean에도 영향을 미쳐서 아예 run조차도 불가능하더라...
