@@ -6,7 +6,7 @@ categories: [HCI (Human-Computer-Interaction), UX]
 tags: [HCI, UX]
 render_with_liquid: false
 image:
-  path: /assets/img/post_img/2022-07-05-03.png
+  path: /assets/img/post_img/2022-07-05-12.png
 ---
 
 > 2022년에 수행한 과제의 일부분입니다.
