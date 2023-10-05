@@ -3,7 +3,7 @@ title: GLTF Loader를 이용해 scene import하기
 author: gh13
 date: 2021-07-04 21:22:00 +0800
 categories: [Web, three.js]
-tags: [three.js, javascript 5, node.js]
+tags: [three.js, javascript 5, node.js, Error 기록]
 render_with_liquid: false
 image:
   path: /assets/img/post_img/2021-07-14-05.png
