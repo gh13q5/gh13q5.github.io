@@ -32,6 +32,6 @@ render_with_liquid: false
 ## 출처
 
 - [우아한 헤어 – B클래스 몰딩](https://blog.daum.net/hairgo3256/585)
-- [경남신문 \- \[@갱남 늬우스\] 인형뽑기 열풍…잘 안 뽑혀도 뽑는다](http://www.knnews.co.kr/news/articleView.php?idxno=1202339)
+- 경남신문 \- \[@갱남 늬우스\] 인형뽑기 열풍…잘 안 뽑혀도 뽑는다
 - [UNSPLASH - More like Toy view, not birds view by Daniela P](https://unsplash.com/photos/YU9rbNLQxSY)
   
