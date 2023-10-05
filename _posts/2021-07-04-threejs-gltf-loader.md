@@ -59,11 +59,11 @@ render();
 
 ### <script> 종료 태그 오류
 
-첫 번째로 발생한 문제는 <script src="./glTFLoader.js" />를 추가할 때 발생한 오류였다. 나는 <div>에 렌더링한 scene을 붙이는 방식을 사용하는데, 이게 아예 실행이 안 되고 있었는지 <body>태그가 비어있다고 나오더라. 하얀 화면만 덩그러니 나오는 상태로 말이다. 알고보니 <script>의 종료 태그가 제대로 작성되지 않아서 <style>이 아예 인식도 안 되고 있었다. <script src="..."></script>로 종료 태그를 작성해주니 바로 해결됐다.  
+첫 번째로 발생한 문제는 `<script src="./glTFLoader.js" />`를 추가할 때 발생한 오류였다. 나는 <div>에 렌더링한 scene을 붙이는 방식을 사용하는데, 이게 아예 실행이 안 되고 있었는지 `<body>`태그가 비어있다고 나오더라. 하얀 화면만 덩그러니 나오는 상태로 말이다. 알고보니 `<script>`의 종료 태그가 제대로 작성되지 않아서 <style>이 아예 인식도 안 되고 있었다. `<script src="..."></script>`로 종료 태그를 작성해주니 바로 해결됐다.  
 
 ### Uncaught TypeError: THREE.GLTFLoader is not a constructor
 
-종료 태그 문제를 해결한 후 발생한 문제는 `Uncaught TypeError: THREE.GLTFLoader is not a constructor` 에러다. 처음에는 내 three.js와 gltfLoader의 ES5와 ES6 버젼 차이에서 발생한 문제인 것같아서 three.js import 방식 자체를 바꿨다. <script src="..." /> 대신 import 구문과 three.module.js 파일을 사용하는 방식으로. `type을 module로 바꿔주는 거 잊지말자.`
+종료 태그 문제를 해결한 후 발생한 문제는 `Uncaught TypeError: THREE.GLTFLoader is not a constructor` 에러다. 처음에는 내 three.js와 gltfLoader의 ES5와 ES6 버젼 차이에서 발생한 문제인 것같아서 three.js import 방식 자체를 바꿨다. `<script src="..." />` 대신 import 구문과 three.module.js 파일을 사용하는 방식으로. `type을 module로 바꿔주는 거 잊지말자.`
 
 ```html
 <script type="module">
