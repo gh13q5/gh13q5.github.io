@@ -2,8 +2,8 @@
 title: Maven 플러그인 에러
 author: gh13
 date: 2022-04-11 14:27:00 +0800
-categories: [Web, Memo]
-tags: [Maven]
+categories: [IT Memo]
+tags: [Maven, Error 기록]
 render_with_liquid: false
 ---
 
