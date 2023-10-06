@@ -3,7 +3,7 @@ title: PointerLockControls와 raycster 사용해보기
 author: gh13
 date: 2021-07-12 14:46:00 +0800
 categories: [Web, three.js]
-tags: [three.js javascript 5]
+tags: [three.js, javascript 5]
 render_with_liquid: false
 image:
   path: /assets/img/post_img/2021-07-12-02.PNG
