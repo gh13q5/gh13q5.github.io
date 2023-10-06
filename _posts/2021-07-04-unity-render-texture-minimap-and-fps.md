@@ -12,7 +12,7 @@ image:
 > 기존에 스터디의 일환으로 작성했던 PPT의 일부를 옮겨왔습니다.
 {: .prompt-info }
 
-![PPT Image](/assets/img/post_img/2021-07-04-01.png){: width="972" }
+![PPT Image](/assets/img/post_img/2021-07-04-14.png){: width="972" }
 ![PPT Image](/assets/img/post_img/2021-07-04-02.png){: width="972" }
 ![PPT Image](/assets/img/post_img/2021-07-04-03.png){: width="972" }
 ![PPT Image](/assets/img/post_img/2021-07-04-04.png){: width="972" }
