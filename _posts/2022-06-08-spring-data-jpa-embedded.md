@@ -59,6 +59,5 @@ public class Membership {
 
 <br/>
 
-+)
-가독성을 위해 같은 기능을 하는 @IdClass로 수정도 해봤다.
-
+> 가독성을 위해 같은 기능을 하는 @IdClass로 수정해봤다. <https://gh13q5.github.io/posts/spring-data-jpa-idclass/>
+{: .prompt-info }
