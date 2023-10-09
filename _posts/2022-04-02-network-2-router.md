@@ -3,7 +3,7 @@ title: "[네트워크 관리사 2급 실기] 라우터(Router) 문제"
 author: gh13
 date: 2022-04-02 15:15:00 +0800
 categories: [IT Memo]
-tags: [네트워크 관리사 2급]
+tags: [네트워크 관리사 2급, 네트워크]
 render_with_liquid: false
 ---
 
