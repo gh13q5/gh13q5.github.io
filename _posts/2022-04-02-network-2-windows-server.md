@@ -3,7 +3,7 @@ title: "[네트워크 관리사 2급 실기] Windows Server 문제"
 author: gh13
 date: 2022-04-02 14:37:00 +0800
 categories: [IT Memo]
-tags: [네트워크 관리사 2급]
+tags: [네트워크 관리사 2급, 네트워크]
 render_with_liquid: false
 image:
   path: /assets/img/post_img/2022-04-02-08.png
