@@ -1,7 +1,7 @@
 ---
 title: "게임 프로그래밍 패턴, 좋은 구조"
 author: gh13
-date: 2021-05-14 12:13:00 +0800
+date: 2023-12-22 12:13:00 +0800
 categories: [CS (Computer Science), 디자인 패턴]
 tags: [디자인 패턴, 게임 프로그래밍 페탄, 기술 서적]
 render_with_liquid: false
