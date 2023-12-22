@@ -2,7 +2,7 @@
 title: "[네트워크 관리사 2급 실기] 리눅스 명령어"
 author: gh13
 date: 2022-04-02 16:11:00 +0800
-categories: [IT Memo]
+categories: [CS (Computer Science), 네트워크]
 tags: [네트워크 관리사 2급, Linux]
 render_with_liquid: false
 ---
