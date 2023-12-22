@@ -2,7 +2,7 @@
 title: ".gitignore 파일 적용"
 author: gh13
 date: 2021-08-28 17:57:00 +0800
-categories: [IT Memo]
+categories: [CS (Computer Science), Memo]
 tags: [git, Error 기록]
 render_with_liquid: false
 ---
@@ -19,8 +19,6 @@ render_with_liquid: false
 <br/>
 
 ## .gitignore 파일 작성 및 적용
-
-![my local folder img](/assets/img/post_img/2021-08-28-01.png){: width="972" }
 
 프로젝트의 최상단 폴더에 있는 .gitignore 파일을 텍스트 편집기로 켜준 후 제외시킬 폴더의 경로를 작성해준다.
 
