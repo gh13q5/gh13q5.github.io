@@ -2,7 +2,7 @@
 title: "SteamWorks 간단 정리 및 개요"
 author: gh13
 date: 2021-07-04 21:34:00 +0800
-categories: [IT Memo]
+categories: [CS (Computer Science), Memo]
 tags: [SteamWorks, Tech]
 render_with_liquid: false
 image:
